@@ -27,3 +27,4 @@ struct Timer {
         return (activo && tiempoRestante <= 0);
     }
 };
+                                    
