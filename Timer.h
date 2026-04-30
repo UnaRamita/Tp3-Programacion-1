@@ -24,7 +24,10 @@ struct Timer {
 
     // Verifica si se terminó el tiempo
     bool Termino() const {
-        return (activo && tiempoRestante <= 0);
+        if (activo && tiempoRestante <= 0) {
+            return true;
+		}
+		else { return false; }
     }
 };
                                     

@@ -8,7 +8,6 @@ const int screenHeight = 600;
 
 // Tren y Movimiento
 const float TREN_VELOCIDAD = 200.0f;
-const int ESPACIADO_VAGONES = 10; //dsp veo bien cuanto es
 
 // Juego
 const float TIEMPO_LIMITE_PREGUNTA = 5.0f;

@@ -14,7 +14,7 @@ void Vagon::Dibujar() {
 
     // Si el vagón tiene un valor asignado (y no es la locomotora), lo dibujamos encima
     // Usamos el valor convertido a texto para Raylib
-    if (valor >= 0) {
+    if (valor > 0) {
         const char* textoValor = TextFormat("%d", valor);
 
         // Calculamos el centro para que el número quede centrado en el vagón
@@ -30,7 +30,4 @@ void Vagon::Dibujar() {
     }
 }
 
-// Retorna el rectángulo de colisión del vagón
-Rectangle Vagon::GetBounds() {
-    return { posicion.x, posicion.y, (float)textura.width, (float)textura.height };
-}
+Vagon::~Vagon(){}

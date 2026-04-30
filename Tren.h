@@ -13,14 +13,14 @@ public:
     ~Tren(); // Para liberar los punteros
 
     // Setup inicial (Locomotora + 2 vagones)
-    void Inicializar(Texture2D texLoco, Texture2D texVagon);
+    void Init(Texture2D texLoco, Texture2D texVagon);
 
     // Bucle principal
     void Actualizar(float dt);
     void Dibujar();
 
     // Métodos de la formación
-    void AgregarVagon(Vagon* nuevo);
+    void AgregarVagon(Vagon* nuevo,int valor);
     void ExplotarUltimo();
 
     // Getters útiles para el Game.cpp

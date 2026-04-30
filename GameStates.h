@@ -1,7 +1,6 @@
 #pragma once
 
 enum class GameState {
-    MENU,            // Pantalla de inicio
     JUGANDO,         // El tren se mueve por las vías
     ESPERANDO_RTA,   // El tren se detuvo por una colisión y espera la suma
     GAMEOVER,        // Perdió la locomotora y los vagones iniciales

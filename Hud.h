@@ -14,7 +14,7 @@ public:
     void DibujarEcuacion(const char* pregunta, float tiempo);
 
     // Retorna -1 si no se tocó nada, o el valor final si tocó OK
-    int ActualizarTeclado();
+    int ActualizarTeclado(float tiempo);
 
     void ResetInput() { inputActual = ""; }
     std::string GetInput() { return inputActual; }

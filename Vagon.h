@@ -16,6 +16,8 @@ public:
     // Getters y Setters
     Vector2 GetPosicion() { return posicion; }
     void SetPosicion(Vector2 pos) { posicion = pos; }
+	void setValor(int val) { valor = val; }
     int GetValor() { return valor; }
-    Rectangle GetBounds(); // Para colisiones
+    // Devuelve ancho(x) y alto(y) correctamente
+    Rectangle GetRec() { return {posicion.x,posicion.y, (float)textura.width, (float)textura.height }; }
 };

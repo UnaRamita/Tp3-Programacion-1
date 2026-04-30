@@ -3,44 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Vagon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:Vagon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Locomotora.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:Locomotora.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Locomotora.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:Locomotora.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Vagon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:Vagon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\GameStates.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:GameStates.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Config.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:Config.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Timer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:Timer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Tren.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:Tren.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Ecuacion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:Ecuacion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Mapa.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -51,28 +19,60 @@
       "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:Mapa.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Hud.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:Hud.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Tren.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:Tren.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\GameStates.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:GameStates.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Hud.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:Hud.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Ecuacion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:Ecuacion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Hud.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:Hud.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Tren.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:Tren.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Tren.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:Tren.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Timer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:Timer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Locomotora.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:Locomotora.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Vagon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:Vagon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Config.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:Config.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Vagon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:Vagon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Ecuacion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:Ecuacion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Locomotora.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:Locomotora.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Ecuacion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9266B646-EF8B-4121-9DCE-A6BE0843B517}|Template_UNL_Raylib.vcxproj|solutionrelative:Ecuacion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,68 +82,184 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Vagon.h",
-              "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Vagon.h",
-              "RelativeDocumentMoniker": "Vagon.h",
-              "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Vagon.h",
-              "RelativeToolTip": "Vagon.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Hud.h",
+              "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Hud.h",
+              "RelativeDocumentMoniker": "Hud.h",
+              "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Hud.h",
+              "RelativeToolTip": "Hud.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-28T20:17:16.702Z",
+              "WhenOpened": "2026-04-28T20:17:16.911Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Hud.cpp",
+              "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Hud.cpp",
+              "RelativeDocumentMoniker": "Hud.cpp",
+              "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Hud.cpp",
+              "RelativeToolTip": "Hud.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-28T20:17:16.912Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Mapa.h",
+              "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Mapa.h",
+              "RelativeDocumentMoniker": "Mapa.h",
+              "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Mapa.h",
+              "RelativeToolTip": "Mapa.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-28T20:17:16.911Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Mapa.cpp",
+              "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Mapa.cpp",
+              "RelativeDocumentMoniker": "Mapa.cpp",
+              "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Mapa.cpp",
+              "RelativeToolTip": "Mapa.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-29T20:50:24.884Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Game.cpp",
+              "RelativeDocumentMoniker": "Game.cpp",
+              "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Game.cpp*",
+              "RelativeToolTip": "Game.cpp*",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADQAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-28T20:17:16.906Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game.h",
+              "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Game.h",
+              "RelativeDocumentMoniker": "Game.h",
+              "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Game.h",
+              "RelativeToolTip": "Game.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-28T20:17:16.914Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Ecuacion.cpp",
+              "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Ecuacion.cpp",
+              "RelativeDocumentMoniker": "Ecuacion.cpp",
+              "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Ecuacion.cpp",
+              "RelativeToolTip": "Ecuacion.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-28T20:17:16.907Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Tren.h",
+              "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Tren.h",
+              "RelativeDocumentMoniker": "Tren.h",
+              "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Tren.h",
+              "RelativeToolTip": "Tren.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-28T20:17:16.913Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Vagon.cpp",
               "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Vagon.cpp",
               "RelativeDocumentMoniker": "Vagon.cpp",
               "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Vagon.cpp",
               "RelativeToolTip": "Vagon.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-28T20:17:16.904Z"
+              "WhenOpened": "2026-04-28T20:17:16.904Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Locomotora.h",
-              "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Locomotora.h",
-              "RelativeDocumentMoniker": "Locomotora.h",
-              "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Locomotora.h",
-              "RelativeToolTip": "Locomotora.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "Config.h",
+              "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Config.h",
+              "RelativeDocumentMoniker": "Config.h",
+              "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Config.h",
+              "RelativeToolTip": "Config.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-28T20:17:16.905Z"
+              "WhenOpened": "2026-04-28T20:17:16.909Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
+              "Title": "Timer.h",
+              "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Timer.h",
+              "RelativeDocumentMoniker": "Timer.h",
+              "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Timer.h",
+              "RelativeToolTip": "Timer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-28T20:17:16.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameStates.h",
+              "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\GameStates.h",
+              "RelativeDocumentMoniker": "GameStates.h",
+              "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\GameStates.h",
+              "RelativeToolTip": "GameStates.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-28T20:17:16.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Locomotora.cpp",
               "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Locomotora.cpp",
               "RelativeDocumentMoniker": "Locomotora.cpp",
               "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Locomotora.cpp",
               "RelativeToolTip": "Locomotora.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-28T20:17:16.905Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Game.cpp",
-              "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Game.cpp",
-              "RelativeDocumentMoniker": "Game.cpp",
-              "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Game.cpp",
-              "RelativeToolTip": "Game.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-28T20:17:16.906Z"
+              "WhenOpened": "2026-04-28T20:17:16.905Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -153,153 +269,59 @@
               "RelativeDocumentMoniker": "Tren.cpp",
               "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Tren.cpp",
               "RelativeToolTip": "Tren.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAFcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-28T20:17:16.907Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Ecuacion.cpp",
-              "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Ecuacion.cpp",
-              "RelativeDocumentMoniker": "Ecuacion.cpp",
-              "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Ecuacion.cpp",
-              "RelativeToolTip": "Ecuacion.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-28T20:17:16.907Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Timer.h",
-              "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Timer.h",
-              "RelativeDocumentMoniker": "Timer.h",
-              "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Timer.h",
-              "RelativeToolTip": "Timer.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-28T20:17:16.908Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Config.h",
-              "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Config.h",
-              "RelativeDocumentMoniker": "Config.h",
-              "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Config.h",
-              "RelativeToolTip": "Config.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-28T20:17:16.909Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GameStates.h",
-              "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\GameStates.h",
-              "RelativeDocumentMoniker": "GameStates.h",
-              "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\GameStates.h",
-              "RelativeToolTip": "GameStates.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-28T20:17:16.91Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Mapa.cpp",
-              "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Mapa.cpp",
-              "RelativeDocumentMoniker": "Mapa.cpp",
-              "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Mapa.cpp",
-              "RelativeToolTip": "Mapa.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-28T20:17:16.91Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Mapa.h",
-              "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Mapa.h",
-              "RelativeDocumentMoniker": "Mapa.h",
-              "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Mapa.h",
-              "RelativeToolTip": "Mapa.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-28T20:17:16.911Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Hud.h",
-              "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Hud.h",
-              "RelativeDocumentMoniker": "Hud.h",
-              "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Hud.h",
-              "RelativeToolTip": "Hud.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-28T20:17:16.911Z"
+              "WhenOpened": "2026-04-28T20:17:16.907Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Hud.cpp",
-              "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Hud.cpp",
-              "RelativeDocumentMoniker": "Hud.cpp",
-              "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Hud.cpp",
-              "RelativeToolTip": "Hud.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-28T20:17:16.912Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Ecuacion.h",
-              "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Ecuacion.h",
-              "RelativeDocumentMoniker": "Ecuacion.h",
-              "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Ecuacion.h",
-              "RelativeToolTip": "Ecuacion.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Vagon.h",
+              "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Vagon.h",
+              "RelativeDocumentMoniker": "Vagon.h",
+              "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Vagon.h",
+              "RelativeToolTip": "Vagon.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-28T20:17:16.912Z"
+              "WhenOpened": "2026-04-28T20:17:16.702Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "Tren.h",
-              "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Tren.h",
-              "RelativeDocumentMoniker": "Tren.h",
-              "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Tren.h",
-              "RelativeToolTip": "Tren.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Locomotora.h",
+              "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Locomotora.h",
+              "RelativeDocumentMoniker": "Locomotora.h",
+              "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Locomotora.h",
+              "RelativeToolTip": "Locomotora.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-28T20:17:16.913Z"
+              "WhenOpened": "2026-04-28T20:17:16.905Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "Game.h",
-              "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Game.h",
-              "RelativeDocumentMoniker": "Game.h",
-              "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Game.h",
-              "RelativeToolTip": "Game.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-28T20:17:16.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-28T20:17:16.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Ecuacion.h",
+              "DocumentMoniker": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Ecuacion.h",
+              "RelativeDocumentMoniker": "Ecuacion.h",
+              "ToolTip": "C:\\Users\\Zelma\\OneDrive\\Escritorio\\Facultad\\Tp 3 programacion\\Tp3-Programacion-1\\Ecuacion.h",
+              "RelativeToolTip": "Ecuacion.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-28T20:17:16.912Z"
             }
           ]
         }

@@ -2,63 +2,95 @@
 #include "Config.h"
 
 Tren::Tren() {
-    // Lista vacía al empezar
 }
 
 Tren::~Tren() {
-    // Limpieza de memoria (como en tus ejercicios de la facu)
+    // Limpieza de memoria                                                  
     for (Vagon* v : formacion) {
         delete v;
     }
     formacion.clear();
 }
 
-void Tren::Inicializar(Texture2D texLoco, Texture2D texVagon) {
-    // 1. Creamos la Locomotora
-    // La ponemos en una posición inicial (ej: carril 1)
-    Locomotora* loco = new Locomotora({ 100, 100 }, texLoco, TREN_VELOCIDAD);
+void Tren::Init(Texture2D texLoco, Texture2D texVagon) {
+    // Creamos la Locomotora
+    // La ponemos en una posición inicial
+    Locomotora* loco = new Locomotora({ 100,(float)CARRIL_ALTURA - texLoco.height }, texLoco, TREN_VELOCIDAD);
     formacion.push_back(loco);
 
-    // 2. Agregamos los 2 vagones iniciales al fondo
+    // Agrego los 2 vagones iniciales al fondo
     for (int i = 0; i < 2; i++) {
-        int valorRandom = GetRandomValue(0, 9);
+        int valorRandom = GetRandomValue(0, 99);
         // Calculamos la posición para que queden atrás de la locomotora
-        float posX = 100 - ((i + 1) * (texVagon.width + 10));
-        Vagon* v = new Vagon({ posX, 100 }, texVagon, valorRandom);
+        float posX = 100 - ((i + 1)* (texVagon.width));
+        Vagon* v = new Vagon({ posX, (float)CARRIL_ALTURA - texVagon.height }, texVagon, valorRandom);
         formacion.push_back(v);
     }
 }
 
 void Tren::Actualizar(float dt) {
-    if (formacion.empty()) return;
-
     // Movemos cada elemento de la lista
-    for (Vagon* v : formacion) {
-        // Si es el primero (Locomotora), usa su lógica de wrap y velocidad
-        if (v == formacion.front()) {
-            static_cast<Locomotora*>(v)->Actualizar(dt);
+
+    // Movemos la Locomotora (que es la front())
+    Vagon* loco = formacion.front();
+    static_cast<Locomotora*>(loco)->Actualizar(dt);
+
+    // Iteramos el resto de los vagones
+    auto itActual = formacion.begin();
+    auto itAnterior = itActual;
+    itActual++; // Empezamos desde el primer vagón después de la locomotora
+
+    while (itActual != formacion.end()) {
+        Vagon* v = *itActual;
+        Vagon* anterior = *itAnterior;
+
+        // Movemos el vagón actual a la misma velocidad
+        Vector2 pos = v->GetPosicion();
+        pos.x += TREN_VELOCIDAD * dt;
+
+        //salto
+        if (pos.x > GetScreenWidth()) {
+            pos.x = -v->GetRec().width;
+            pos.y += CARRIL_ALTURA;
         }
-        else {
-            // Los vagones siguen a la misma velocidad constante
-            Vector2 pos = v->GetPosicion();
-            pos.x += TREN_VELOCIDAD * dt;
+		//por si se sale por abajo                                                          
+        if (pos.y > GetScreenHeight()) {
+            pos.y -= CARRIL_ALTURA;
+        }
+        v->SetPosicion(pos);
+        //esta parte es por que se me solpaban cuando bajan de carril
+        // Mientras el rectángulo de este vagón choque con el de adelante lo muevo hacia atras
+        Rectangle rectActual = v->GetRec();
+        Rectangle rectAnterior = anterior->GetRec();
 
-            // Lógica de wrap (reaparecer y bajar de carril)
-            if (pos.x > GetScreenWidth()) {
-                pos.x = -v->GetBounds().width;
-                pos.y += CARRIL_ALTURA;
-
-                // Si se sale de la pantalla por abajo, vuelve al primer carril
-                if (pos.y > GetScreenHeight() - 100) pos.y = 100;
+        // veo si se solapan en el mismo carril (misma Y)
+        if (rectActual.y == rectAnterior.y) {
+            if (CheckCollisionRecs(rectActual, rectAnterior)) {
+                // Lo muevo atras
+                pos.x = rectAnterior.x - rectActual.width;
+                v->SetPosicion(pos);
             }
+        }
+		//este lo puse por que cuando se pasaba de piso se solapaban con la locomotora
+        if (CheckCollisionRecs(rectActual, loco->GetRec()) && rectActual.x != loco->GetRec().x) {
+            // Si sigue chocando, lo muevo un poco más atrás (en caso de que el salto haya sido muy grande)
+            pos.x -= 1; // Ajuste extra
             v->SetPosicion(pos);
         }
+
+        itAnterior = itActual;
+        itActual++;
     }
 }
 
-void Tren::AgregarVagon(Vagon* nuevo) {
-    // Simplemente al final, sin vueltas
+void Tren::AgregarVagon(Vagon* nuevo,int valor) {
+
+    nuevo->setValor(valor);
+    // agregamos al final
+    float posX = formacion.back()->GetPosicion().x;
     formacion.push_back(nuevo);
+	formacion.back()->SetPosicion({ posX - nuevo->GetRec().width, nuevo->GetPosicion().y});
+
 }
 
 void Tren::ExplotarUltimo() {

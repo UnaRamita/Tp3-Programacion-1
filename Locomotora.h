@@ -11,4 +11,6 @@ public:
 
     void Actualizar(float dt); // Aquí sucede la magia del movimiento
     void Dibujar();   // Por si querés que la locomotora brille o sea distinta
+
+    Rectangle GetBounds();
 };

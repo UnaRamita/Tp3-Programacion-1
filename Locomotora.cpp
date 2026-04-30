@@ -3,7 +3,7 @@
 
 Locomotora::Locomotora(Vector2 pos, Texture2D tex, float vel)
     : Vagon(pos, tex, 0), velocidad(vel) {
-    // El 0 es porque la locomotora no suele tener número de ecuación
+    // El 0 es porque la locomotora no tiene numero de ecuación
 }
 
 void Locomotora::Actualizar(float dt) {
@@ -15,11 +15,16 @@ void Locomotora::Actualizar(float dt) {
         posicion.x = -textura.width;      // Reaparece por la izquierda
         posicion.y += CARRIL_ALTURA;      // Baja al siguiente carril
 
-        // Opcional: Si llega al fondo de la pantalla, vuelve arriba
-        if (posicion.y > GetScreenHeight() - 100) {
-            posicion.y = 50;
+        // Opcional: Si llega al fondo de la pantalla
+        if (posicion.y > GetScreenHeight()) {
+            posicion.y -= CARRIL_ALTURA;
         }
     }
+}
+
+// Retorna el rectángulo de colisión del vagón
+Rectangle Locomotora::GetBounds() {
+    return { posicion.x, posicion.y, (float)textura.width, (float)textura.height };
 }
 
 void Locomotora::Dibujar() {
