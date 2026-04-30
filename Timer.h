@@ -6,13 +6,13 @@ struct Timer {
     bool activo;
 
     // Inicia el contador con un tiempo dado
-    void Iniciar(float segundos) {
+    void Start(float segundos) {
         tiempoRestante = segundos;
         activo = true;
     }
 
     // Actualiza el tiempo restando el frame time
-    void Actualizar() {
+    void Update() {
         if (activo) {
             tiempoRestante -= GetFrameTime();
             if (tiempoRestante <= 0) {
@@ -22,8 +22,8 @@ struct Timer {
         }
     }
 
-    // Verifica si se terminó el tiempo
-    bool Termino() const {
+    // Verifica si se termino el tiempo
+    bool TimeIsUp() const {
         if (activo && tiempoRestante <= 0) {
             return true;
 		}

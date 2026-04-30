@@ -1,8 +1,18 @@
 ﻿  Game.cpp
-C:\Users\Zelma\OneDrive\Escritorio\Facultad\Tp 3 programacion\Tp3-Programacion-1\Game.cpp(36,20): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\Zelma\OneDrive\Escritorio\Facultad\Tp 3 programacion\Tp3-Programacion-1\Game.cpp(50,20): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\Zelma\OneDrive\Escritorio\Facultad\Tp 3 programacion\Tp3-Programacion-1\Game.cpp(53,84): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\Zelma\OneDrive\Escritorio\Facultad\Tp 3 programacion\Tp3-Programacion-1\Game.cpp(53,65): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\Zelma\OneDrive\Escritorio\Facultad\Tp 3 programacion\Tp3-Programacion-1\Game.cpp(53,50): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\Zelma\OneDrive\Escritorio\Facultad\Tp 3 programacion\Tp3-Programacion-1\Game.cpp(53,35): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-  Template_UNL_Raylib.vcxproj -> C:\Users\Zelma\OneDrive\Escritorio\Facultad\Tp 3 programacion\Tp3-Programacion-1\x64\Debug\Template_UNL_Raylib.exe
+C:\Users\Zelmar\Dropbox\Mi PC (DESKTOP-9GGJTG1)\Desktop\Facu Programacion\Año 2 C1\Programacion 1\Tp3\Game.cpp(38,20): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Zelmar\Dropbox\Mi PC (DESKTOP-9GGJTG1)\Desktop\Facu Programacion\Año 2 C1\Programacion 1\Tp3\Game.cpp(53,20): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Zelmar\Dropbox\Mi PC (DESKTOP-9GGJTG1)\Desktop\Facu Programacion\Año 2 C1\Programacion 1\Tp3\Game.cpp(56,84): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Zelmar\Dropbox\Mi PC (DESKTOP-9GGJTG1)\Desktop\Facu Programacion\Año 2 C1\Programacion 1\Tp3\Game.cpp(56,65): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Zelmar\Dropbox\Mi PC (DESKTOP-9GGJTG1)\Desktop\Facu Programacion\Año 2 C1\Programacion 1\Tp3\Game.cpp(56,50): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Zelmar\Dropbox\Mi PC (DESKTOP-9GGJTG1)\Desktop\Facu Programacion\Año 2 C1\Programacion 1\Tp3\Game.cpp(56,35): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+  Hud.cpp
+C:\Users\Zelmar\Dropbox\Mi PC (DESKTOP-9GGJTG1)\Desktop\Facu Programacion\Año 2 C1\Programacion 1\Tp3\Hud.cpp(26,64): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Zelmar\Dropbox\Mi PC (DESKTOP-9GGJTG1)\Desktop\Facu Programacion\Año 2 C1\Programacion 1\Tp3\Hud.cpp(26,45): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+  Locomotora.cpp
+C:\Users\Zelmar\Dropbox\Mi PC (DESKTOP-9GGJTG1)\Desktop\Facu Programacion\Año 2 C1\Programacion 1\Tp3\Locomotora.cpp(15,22): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+  Mapa.cpp
+  Tren.cpp
+C:\Users\Zelmar\Dropbox\Mi PC (DESKTOP-9GGJTG1)\Desktop\Facu Programacion\Año 2 C1\Programacion 1\Tp3\Tren.cpp(24,20): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+  Vagon.cpp
+  Generando código...
+  Template_UNL_Raylib.vcxproj -> C:\Users\Zelmar\Dropbox\Mi PC (DESKTOP-9GGJTG1)\Desktop\Facu Programacion\Año 2 C1\Programacion 1\Tp3\x64\Debug\Template_UNL_Raylib.exe

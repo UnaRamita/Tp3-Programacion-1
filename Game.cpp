@@ -2,7 +2,9 @@
 #include "Config.h"
 
 Game::Game() {
-    estadoActual = GameState::JUGANDO;
+    currentStatus = GameState::PLAYING;
+
+	lastAnswer = -1;
 
     texLoco = {0};
     texVagon = {0};
@@ -19,7 +21,7 @@ void Game::Inits() {
 
     SetTargetFPS(60);
 
-    // Carga de texturas (asegurate de tener los archivos en la carpeta assets)
+    // Carga de texturas
     texLoco = LoadTexture("assets/locomotora.png");
     texVagon = LoadTexture("assets/vagon.png");
     texFondo = LoadTexture("assets/fondo.png");
@@ -27,83 +29,86 @@ void Game::Inits() {
 	texSalida = LoadTexture("assets/salida.png");
 	texLlegada = LoadTexture("assets/llegada.png");
 
-	rectLlegada = { (float)screenWidth - texLlegada.width, (float)CARRIL_ALTURA * 3 - texLlegada.height, (float)texLlegada.width, (float)texLlegada.height };
+	rectLlegada = { (float)screenWidth - texLlegada.width, (float)SPACE_BETWEEN_TRACKS * 3 - texLlegada.height, (float)texLlegada.width, (float)texLlegada.height };
 
-    mapa.Init(texFondo, texVia);
-    tren.Init(texLoco, texVagon);
+    map.Init(texFondo, texVia);
+    train.Init(texLoco, texVagon);
 
-    for (int carril = 0; carril < 4; carril++) {
-        float yPos = CARRIL_ALTURA * carril - texVagon.height;
+    for (int carril = 1; carril < 4; carril++) {
+        float yPos = SPACE_BETWEEN_TRACKS * carril - texVagon.height;
 
         for (int i = 0; i < 2; i++) {
             // Posición X aleatoria entre 200 y el ancho de pantalla - 100
             float xPos = (float)GetRandomValue(200, screenWidth - 100);
-            Vagon* nuevoSuelto = new Vagon({ xPos, yPos }, texVagon, 0);
+            TrainCar* nuevoSuelto = new TrainCar({ xPos, yPos }, texVagon, 0);
             vagonesSueltos.push_back(nuevoSuelto);
         }
     }
 
-    ecuacion.GenerarNueva();
+    ecuacion.GenerateAgain();
 }
-void Game::VerificarColisiones() {
-	Rectangle rectLoco = { tren.GetPosicionCabeza().x, tren.GetPosicionCabeza().y, (float)texLoco.width, (float)texLoco.height };
-    float yLlegada = (CARRIL_ALTURA * 3) - (texLlegada.height);
+void Game::CheckCollider() {
+	//variables para facilitar la escritura
+	Rectangle rectLoco = { train.GetPHeadPos().x, train.GetPHeadPos().y, (float)texLoco.width, (float)texLoco.height };
+    float yLlegada = (SPACE_BETWEEN_TRACKS * 3) - (texLlegada.height);
     Rectangle rectLlegada = { (float)screenWidth - texLlegada.width, yLlegada, (float)texLlegada.width, (float)texLlegada.height };
 
     DrawRectangleLines(rectLlegada.x, rectLlegada.y, rectLlegada.width, rectLlegada.height, RED);
 	
-    // Usamos un iterador para poder borrar el vagon del vector si chocamos
+    // para poder borrar el vagon del vector si chocamos
     for (auto it = vagonesSueltos.begin(); it != vagonesSueltos.end(); ++it) {
         if (CheckCollisionRecs(rectLoco, (*it)->GetRec())) {
-            if (estadoActual == GameState::JUGANDO) {
-                vagonActualColisionado = *it; // Guardamos la referencia
+            if (currentStatus == GameState::PLAYING) {
+                traincarActualCollided = *it; // Guardo la referencia
 
-                // Quitamos el vagón de la lista de "sueltos" para que no se dibuje más en la vía
+                // Quito el vagon de la lista de "sueltos" para que no se dibuje mas
                 vagonesSueltos.erase(it);
 
-                // Disparamos la ecuación
-                estadoActual = GameState::ESPERANDO_RTA;
-                timerPregunta.Iniciar(TIEMPO_LIMITE_PREGUNTA);
+                // Disparo la ecuacion
+                currentStatus = GameState::WAITING_RTA;
+                askTimer.Start(ASK_TIME_LIMIT);
                 hud.ResetInput();
-                break; // Salimos del bucle porque ya chocamos con uno
+                break; // Salimos del bucle
             }
         }
     }
 
     if (CheckCollisionRecs(rectLoco, rectLlegada)) {
         if (vagonesSueltos.empty()) { // Solo gana si no quedan vagones en el mapa
-            estadoActual = GameState::VICTORIA;
+            currentStatus = GameState::VICTORI;
         }
     }
 }
 
 void Game::Run() {
-    Draw();
+    //flujo del juego
     float dt = GetFrameTime();
-    switch (estadoActual) {
-    case GameState::JUGANDO: 
-        tren.Actualizar(dt);
-        mapa.Update();
-        VerificarColisiones();
+    Draw();
+	//estados del juego
+    switch (currentStatus) {
+    case GameState::PLAYING: 
+        train.Update(dt);
+        map.Update();
+        CheckCollider();
         break;
 
-    case GameState::ESPERANDO_RTA:
+    case GameState::WAITING_RTA:
     {
-        timerPregunta.Actualizar();
-        mapa.Update();
-        // Obtenemos la respuesta del teclado numérico del HUD
-        int respuesta = hud.ActualizarTeclado(timerPregunta.tiempoRestante);
+        askTimer.Update();
+        map.Update();
+        // Obtenemos la respuesta del teclado numerico del HUD
+        int answer = hud.ActualizarTeclado(askTimer.tiempoRestante);
 
-        if (respuesta != -1) {
-            ultimaRespuesta = respuesta;
-            ProcesarRespuesta(respuesta);
+        if (answer != -1) {
+			lastAnswer = answer; //la uso para mostrar el numero en el vagon que se une al tren si la respuesta es correcta
+            CheckAnswer(answer);
         }
 
-        if (timerPregunta.Termino()) {
-            // Si se acaba el tiempo, pierde un vagón
-            tren.ExplotarUltimo();
-            ecuacion.GenerarNueva();
-            estadoActual = GameState::JUGANDO;
+        if (askTimer.TimeIsUp()) {
+            // Si se acaba el tiempo, pierde un vagon
+            train.RemoveLast();
+            ecuacion.GenerateAgain();
+            currentStatus = GameState::PLAYING;
         }
     }
         break;
@@ -111,14 +116,15 @@ void Game::Run() {
     case GameState::GAMEOVER: 
         if (IsKeyPressed(KEY_R)){ 
             Inits(); 
-			estadoActual = GameState::JUGANDO;
+			currentStatus = GameState::PLAYING;
         } // Reiniciar
    
         break;
-	case GameState::VICTORIA:
+	case GameState::VICTORI:
         if (IsKeyPressed(KEY_R)) {
+            train = Train();
             Inits();
-            estadoActual = GameState::JUGANDO;
+            currentStatus = GameState::PLAYING;
         } // Reiniciar
     }
 
@@ -126,67 +132,69 @@ void Game::Run() {
     
 }
 
-void Game::ProcesarRespuesta(int rta) {
-    if (ecuacion.Verificar(rta)) {
-        // CORRECTO: El vagón con el que chocamos se une al tren
-        // No creamos uno nuevo, usamos el que ya existía en la vía
-        tren.AgregarVagon(vagonActualColisionado, ultimaRespuesta);
+void Game::CheckAnswer(int rta) {
+    if (ecuacion.Check(rta)) {
+		//El vagon con el que chocamos se une al tren si la respuesta es correcta
+        train.AddTrainCar(traincarActualCollided, lastAnswer);
     }
     else {
-        // INCORRECTO: El vagón de la vía se pierde (borramos memoria)
-        delete vagonActualColisionado;
-        // Y el tren pierde el último vagón que ya tenía
-        tren.ExplotarUltimo();
+        //El vagon de la vía se pierde caboom
+        delete traincarActualCollided;
+        // Y el tren pierde el ultimo vagon que ya tenia
+        train.RemoveLast();
     }
 
-    vagonActualColisionado = nullptr; // Limpiamos el puntero
+    traincarActualCollided = nullptr; // Limpiamos
 
     // Chequeo de derrota
-    if (tren.GetCantidad() == 0) {
-        estadoActual = GameState::GAMEOVER;
+    if (train.GetSize() == 0) {
+        currentStatus = GameState::GAMEOVER;
     }
     else {
-        ecuacion.GenerarNueva();
-        estadoActual = GameState::JUGANDO;
+        ecuacion.GenerateAgain();
+        currentStatus = GameState::PLAYING;
     }
 }
 
 void Game::Draw() {
     BeginDrawing();
     ClearBackground(RAYWHITE);
-
-    mapa.Update();
-    tren.Dibujar();
-	DrawTexture(texSalida, 0, CARRIL_ALTURA - texSalida.height, WHITE);
-	DrawTexture(texLlegada, screenWidth - texLlegada.width, CARRIL_ALTURA * 3 - texLlegada.height, WHITE);
    
-    // Dibujar vagones que están esperando en la vía
-    for (Vagon* v : vagonesSueltos) {
-        v->Dibujar();
+    map.Update();
+    train.Draw();
+	DrawTexture(texSalida, 0, SPACE_BETWEEN_TRACKS - texSalida.height, WHITE);
+	DrawTexture(texLlegada, screenWidth - texLlegada.width, SPACE_BETWEEN_TRACKS * 3 - texLlegada.height, WHITE);
+   
+    // Dibujar vagones que estan esperando en la via
+    for (TrainCar* v : vagonesSueltos) {
+        v->Draw();
     }
     //Estados del juego
-    if (estadoActual == GameState::ESPERANDO_RTA) {
-        hud.DibujarEcuacion(ecuacion.GetTextoPregunta(), timerPregunta.tiempoRestante);
-        hud.DibujarTeclado();
+    if (currentStatus == GameState::WAITING_RTA) {
+        hud.DrawEquation(ecuacion.GetAskText(), askTimer.tiempoRestante);
+        hud.DrawKeyboard();
     }
 
-    if (estadoActual == GameState::GAMEOVER) {
+    if (currentStatus == GameState::GAMEOVER) {
         DrawRectangle(0, 0, screenWidth, screenHeight, Fade(RED, 0.5f));
         DrawText("GAME OVER", 300, 250, 50, WHITE);
         DrawText("Presiona R para reiniciar", 310, 320, 20, RAYWHITE);
     }
 
-    if (estadoActual == GameState::VICTORIA) {
+    if (currentStatus == GameState::VICTORI) {
         DrawRectangle(0, 0, screenWidth, screenHeight, Fade(GREEN, 0.5f));
         DrawText("¡VICTORIA!", 300, 250, 50, WHITE);
         DrawText("Presiona R para reiniciar", 310, 320, 20, RAYWHITE);
 	}
 
+    //debug
+    //DrawText(TextFormat("Vagones sueltos: %d", vagonesSueltos.size()), 10, 10, 20, BLACK);
+    
     EndDrawing();
 }
 
 Game::~Game() {
-    mapa.~Mapa();
+    map.~Map();
     UnloadTexture(texLoco);
     UnloadTexture(texVagon);
     CloseWindow();

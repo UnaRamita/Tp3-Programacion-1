@@ -10,18 +10,18 @@ private:
 public:
     Ecuacion();
 
-    // Genera 3 números nuevos entre 0 y 9 y calcula el resultado
-    void GenerarNueva();
+    // Genera 3 numeros nuevos entre 0 y 9 y calcula el resultado
+    void GenerateAgain();
 
     // Compara la respuesta del usuario con el resultado real
-    bool Verificar(int respuestaUsuario);
+    bool Check(int respuestaUsuario);
 
     // Getters para mostrar en el HUD
     int GetN1() const { return n1; }
     int GetN2() const { return n2; }
     int GetN3() const { return n3; }
-    int GetResultado() const { return resultadoCorrecto; }
+    int GetRes() const { return resultadoCorrecto; }
 
-    // Devuelve la cadena "N1 + N2 + N3 = ?" para dibujar fácil
-    const char* GetTextoPregunta();
+    // Devuelve la cadena "N1 + N2 + N3 = ?" para dibujar
+    const char* GetAskText();
 };

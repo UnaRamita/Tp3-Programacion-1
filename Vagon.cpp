@@ -1,23 +1,20 @@
 #include "Vagon.h"
 
-// Constructor: Inicializa la posición, la textura y el valor numérico del vagón
-Vagon::Vagon(Vector2 pos, Texture2D tex, int val) {
+TrainCar::TrainCar(Vector2 pos, Texture2D tex, int val) {
     posicion = pos;
     textura = tex;
     valor = val;                                
 }
 
-// Dibuja el vagón en su posición actual
-void Vagon::Dibujar() {
-    // Dibujamos la textura en la posición almacenada
+void TrainCar::Draw() {
+    // Dibujamos la textura en la pos
     DrawTextureV(textura, posicion, WHITE);
 
-    // Si el vagón tiene un valor asignado (y no es la locomotora), lo dibujamos encima
-    // Usamos el valor convertido a texto para Raylib
+    // Si el vagón tiene un valor asignado lo dibujamos encima
     if (valor > 0) {
         const char* textoValor = TextFormat("%d", valor);
 
-        // Calculamos el centro para que el número quede centrado en el vagón
+        // Calculamos el centro para que el numero quede centrado en el vagon
         int fontSize = 20;
         int textWidth = MeasureText(textoValor, fontSize);
 
@@ -30,4 +27,4 @@ void Vagon::Dibujar() {
     }
 }
 
-Vagon::~Vagon(){}
+TrainCar::~TrainCar(){}

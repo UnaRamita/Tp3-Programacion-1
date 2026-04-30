@@ -1,29 +1,29 @@
 #include "Mapa.h"
 #include "Config.h"
 
-Mapa::Mapa() {
+Map::Map() {
     fondo = { 0 };
     via = { 0 };
 }
 
-void Mapa::Init(Texture2D texFondo, Texture2D texVia) {
+void Map::Init(Texture2D texFondo, Texture2D texVia) {
     fondo = texFondo;
     via = texVia;
 }
 
-void Mapa::Update() {
-    // Dibujamos el fondo estático
+void Map::Update() {
+    // Dibujo el fondo estatico
     DrawTexture(fondo, 0, 0, WHITE);
 
-    // Dibujamos las vías en cada carril definido en Config.h
+    // Dibujo las vias en cada carril definido en Config.h
     for (int i = 0; i < 3; i++) {
-        int yPos = 100 + (i * CARRIL_ALTURA);
-        // Dibujamos la vía a lo largo de toda la pantalla (puedes usar un bucle si la textura es chica)
+        int yPos = 100 + (i * SPACE_BETWEEN_TRACKS);
+        // Dibujo la via a lo largo de toda la pantalla
         DrawTexture(via, 0, yPos + 40, WHITE);
     }
 }
 
-Mapa::~Mapa() {
+Map::~Map() {
     UnloadTexture(fondo);
     UnloadTexture(via);
 }

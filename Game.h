@@ -11,24 +11,24 @@
 
 class Game {
 private:
-    int ultimaRespuesta;
+    int lastAnswer;
 
-    GameState estadoActual;
-    Tren tren;
+    GameState currentStatus;
+    Train train;
     Ecuacion ecuacion;
     Hud hud;
-    Timer timerPregunta;
-    Mapa mapa;
+    Timer askTimer;
+    Map map;
 	Rectangle rectLlegada;
 
-    std::vector<Vagon*> vagonesSueltos;
-    Vagon* vagonActualColisionado;
+    std::vector<TrainCar*> vagonesSueltos;
+    TrainCar* traincarActualCollided;
 
     // Texturas globales
     Texture2D texLoco, texVagon, texFondo, texVia, texSalida, texLlegada;
 
-    void VerificarColisiones();
-    void ProcesarRespuesta(int rta);
+    void CheckCollider();
+    void CheckAnswer(int rta);
     void Draw();
 
 public:

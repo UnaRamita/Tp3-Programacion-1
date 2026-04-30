@@ -3,27 +3,27 @@
 #include "Vagon.h"
 #include "Locomotora.h"
 
-class Tren {
+class Train {
 private:
-    // La joya de la corona: la lista de la STL
-    std::list<Vagon*> formacion;
+    //la lista de la STL
+    std::list<TrainCar*> formacion;
 
 public:
-    Tren();
-    ~Tren(); // Para liberar los punteros
+    Train();
+    ~Train();
 
     // Setup inicial (Locomotora + 2 vagones)
     void Init(Texture2D texLoco, Texture2D texVagon);
 
     // Bucle principal
-    void Actualizar(float dt);
-    void Dibujar();
+    void Update(float dt);
+    void Draw();
 
-    // Métodos de la formación
-    void AgregarVagon(Vagon* nuevo,int valor);
-    void ExplotarUltimo();
+    // Metodos de la formacion
+    void AddTrainCar(TrainCar* nuevo,int valor);
+    void RemoveLast();
 
-    // Getters útiles para el Game.cpp
-    int GetCantidad();
-    Vector2 GetPosicionCabeza();
+    // Getters que me son utiles para el Game.cpp
+    int GetSize();
+    Vector2 GetPHeadPos();
 };

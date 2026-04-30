@@ -14,19 +14,19 @@ Hud::Hud() {
     }
 }
 
-void Hud::DibujarTeclado() {
+void Hud::DrawKeyboard() {
     for (int i = 0; i < 12; i++) {
-        // Si el mouse está encima, lo pintamos de otro color
+        // Si el mouse esta encima, lo pintamos de otro color
         Color colorBoton = CheckCollisionPointRec(GetMousePosition(), botones[i]) ? LIGHTGRAY : GRAY;
 
         DrawRectangleRec(botones[i], colorBoton);
         DrawRectangleLinesEx(botones[i], 2, DARKGRAY);
 
-        // Dibujamos el número/texto centrado en el botón
+        // Dibujo el numero/texto centrado en el boton
         DrawText(etiquetas[i], botones[i].x + 20, botones[i].y + 20, 20, BLACK);
     }
 
-    // Dibujamos lo que el usuario va escribiendo
+    // Dibujo lo que el player va escribiendo
     DrawText(TextFormat("Respuesta: %s", inputActual.c_str()), 300, 500, 30, BLUE);
 }
 
@@ -36,7 +36,7 @@ int Hud::ActualizarTeclado(float tiempo) {
 
         for (int i = 0; i < 12; i++) {
             if (CheckCollisionPointRec(mousePos, botones[i])) {
-                if (i < 10) { // Botones 0-9 (ajustar según orden de etiquetas)
+                if (i < 10) { // Botones 0-9
                     inputActual += etiquetas[i];
                 }
                 else if (std::string(etiquetas[i]) == "DEL") {
@@ -56,15 +56,15 @@ int Hud::ActualizarTeclado(float tiempo) {
    }
     return -1; // No se confirmó nada todavía
 }
-void Hud::DibujarEcuacion(const char* pregunta, float tiempo) {
-    // Dibujamos un recuadro para la ecuacion
+void Hud::DrawEquation(const char* pregunta, float tiempo) {
+    // Dibujo un recuadro para la ecuacion
     DrawRectangle(200, 50, 400, 100, Fade(LIGHTGRAY, 0.8f));
     DrawRectangleLines(200, 50, 400, 100, DARKGRAY);
 
-    // Dibujamos el texto de la ecuacion
+    // Dibujo el texto de la ecuacion
     DrawText(pregunta, 250, 80, 40, BLACK);
 
-    // Dibujamos el tiempo restante 
+    // Dibujo el tiempo restante 
     Color colorTiempo = (tiempo < 2.0f) ? RED : DARKGREEN;
     DrawText(TextFormat("Tiempo: %.0f", tiempo), 250, 160, 20, colorTiempo);
 }

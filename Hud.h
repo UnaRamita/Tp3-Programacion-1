@@ -10,8 +10,8 @@ private:
 
 public:
     Hud();
-    void DibujarTeclado();
-    void DibujarEcuacion(const char* pregunta, float tiempo);
+    void DrawKeyboard();
+    void DrawEquation(const char* pregunta, float tiempo);
 
     // Retorna -1 si no se tocó nada, o el valor final si tocó OK
     int ActualizarTeclado(float tiempo);
